@@ -4,13 +4,13 @@ function add(a: number, b: number): number {
   return a + b;
 }
 
-const result = add(1, "two");
+const result = add(1, 2);
 console.log(result);
 
-const result2 = add([3, 4, 5], 6);
+const result2 = add(4, 6);
 console.log(result2);
 
 const x: number = 7;
-const y: number = "eight";
+const y: number = 8;
 const result3 = add(x, y);
 console.log(result3);
